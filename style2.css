@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700');
+
+body {
+    font-family: 'Ubuntu Mono', monospace;
+    background: url("img/blur-blurred-background-bubbles-1447366_opa01.jpg") no-repeat center center fixed;
+    background-size: auto;
+
+}
+
+.caption{
+	font-family: 'Ubuntu Mono', monospace;
+	color:white;
+}
+
+#image-gallery .modal-footer{
+  display: block;
+}
+
+
+.thumb{
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+}
+
+ul {
+    //border: 1px solid #555;
+	float: left;
+
+
+}
+
+li {
+    text-align: left;
+  //  border-bottom: 1px solid #555;
+    font-family: 'Ubuntu Mono', monospace;
+    float: left;
+   // border: 1px solid green;
+	
+}
+
+li:last-child {
+   // border-bottom: none;
+}
+
+header{
+    //background-color:#378f47 !important;
+}
+
+#foot{
+	position:absolute;
+	height:20px;
+	background:gray;
+	bottom:0;
+	left:0;
+	width:100%
+	}
+
+.btn{
+    display:inline-block;
+    font-family: 'Ubuntu Mono', monospace;
+    padding:0.3em 1.7em;
+    font-size: 1em;
+    letter-spacing: 0.6px;
+    margin:0 0.1em 0.1em 0;
+    background-color:#378f47;
+    border:0.1em solid rgba(255,255,255,0);
+    border-radius:1em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-weight:500;
+    color:#FFFFFF;
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    text-align:left;
+    transition: all 0.2s;
+	width: 100%
+}
+.btn:hover{
+    border-color: #1b4120;
+    color: #1b4120;
+}
+
+.bg-gallery
+{
+	backgound-color: #000000
+}
+
+
